@@ -19,5 +19,8 @@ test/treeshake/stats.html
 test/e2e/chromium
 test/e2e/output-screenshots
 
+
+**/dist
+**/dist-ssr
 **/node_modules
 **/docs_new
