@@ -122,7 +122,7 @@ scene.add( light );
 
 const loader = new GLTFLoader();
 loader.load( 
-	'/mess2.glb', 
+	'/model/mess2.glb', 
 	function ( glb ) {
 		glb.scene.traverse((child) =>{ 
 			if (intersectObjectsNames.includes(child.name)){
