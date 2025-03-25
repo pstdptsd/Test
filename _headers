@@ -1,2 +1,3 @@
 /model/*.glb
-  Content-Type: model/gltf-binary
+Content-Type: model/gltf-binary
+Access-Control-Allow-Origin: *
