@@ -119,10 +119,10 @@ const light = new THREE.AmbientLight( 0x404040, 5 ); // soft white light
 scene.add( light );
 
 
-const modelPath = '/Test/model/mess2.glb';
+//const modelPath = '/Test/model/mess2.glb';
 const loader = new GLTFLoader();
 loader.load( 
-	modelPath, 
+	"/model/mess2.glb", 
 	function ( glb ) {
 		glb.scene.traverse((child) =>{ 
 			if (intersectObjectsNames.includes(child.name)){
