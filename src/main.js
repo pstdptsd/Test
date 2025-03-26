@@ -121,7 +121,7 @@ scene.add( light );
 
 const loader = new GLTFLoader();
 loader.load( 
-	'/model/mess2.glb', 
+	'/Test/model/mess2.glb', 
 	//modelPath,
 	function ( glb ) {
 		glb.scene.traverse((child) =>{ 
